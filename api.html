@@ -1,0 +1,1512 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>	
+    <!-- <meta name="description" content="PaaSoo 无限云，更好用的国际短信/语音服务云平台。平台稳定，接口完善，短信验证码，语音验证码秒发秒到。实时状态报告。API接口提供多种功能，全球到达率95%。"/>
+    <meta name="keywords" content="短信接口,短信平台,国际短信,短信,企业短信,语音验证,短信api,全球短信,短信营销,云通讯,开放接口"/> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Font Awesome-->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<!--客服-->
+	<script type='text/javascript'>
+
+	    (function(m, ei, q, i, a, j, s) {
+	        m[i] = m[i] || function() {
+	            (m[i].a = m[i].a || []).push(arguments)
+	        };
+	        j = ei.createElement(q),
+	            s = ei.getElementsByTagName(q)[0];
+	        j.async = true;
+	        j.charset = 'UTF-8';
+	        j.src = '//static.meiqia.com/dist/meiqia.js';
+	        s.parentNode.insertBefore(j, s);
+	    })(window, document, 'script', '_MEIQIA');
+	    _MEIQIA('entId', 47827);
+	    _MEIQIA('withoutBtn');
+
+	</script>
+		
+	<div class="gtco-loader"></div>
+	
+	<div id="page">
+		<nav class="gtco-nav" role="navigation">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-12">
+						<div id="gtco-logo"><img src="images/toplogo.png"></div>
+					</div>
+					<div class="col-xs-9 text-right menu-1">
+						<ul class="cl-effect-1">
+							<li><a href="index.html" id='item_home'></a></li>
+							<li class="has-dropdown">
+								<a href="product.html" id="specialMenu" class="item_product" style="padding-bottom: 30px;"></a>
+								<ul class="dropdown">
+									<li><a class="item_globalSms" style="color: #303841;" href="product.html#sectionOne"></a></li>
+									<li><a class="item_globalVoice" style="color: #303841;" href="product.html#sectionFive"></a></li>
+									<li><a class="item_validate" style="color: #303841;" href="product.html#sectionTwo"></a></li>
+									<li><a class="item_sent" style="color: #303841;" href="product.html#sectionThree"></a></li>
+								</ul>
+							</li>
+							<li><a href="price.html" id="item_price"></a></li>
+							<li class="active"><a href="api.html" class="item_APIdoc"></a></li>
+							<li><a id="item_client"></a></li>
+							<ul style="text-align:right; display: inline-block;">
+								<li onclick="PageOpts.language('zh')">
+									<span style="font-size:11px;padding: 0;cursor: pointer;color: rgba(255, 255, 255, 0.5)">中文(简) /</span>
+								</li>
+								<li onclick="PageOpts.language('en')">
+									<span style="font-size:11px;padding: 0;cursor: pointer;color: rgba(255, 255, 255, 0.5)">English /</span>
+								</li>
+								<li onclick="PageOpts.language('ja')">
+									<span style="font-size:11px;padding: 0;cursor: pointer;color: rgba(255, 255, 255, 0.5)">日本語</span>
+								</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/004.jpg);">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc">
+							<h1 class="animate-box item_APIdoc" data-animate-effect="fadeInUp"></h1>
+							<h2 id="item_APIdocTitle" class="animate-box" data-animate-effect="fadeInUp"></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="gtco-features" style="border-bottom: 1px solid #d9d9d9;">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="nav nav-pills nav-stacked" role="tablist">
+					    <li role="presentation" class="active">
+					    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+					    		<i style="margin-right: 8px" class="fa fa-paper-plane"></i>
+					    		<span class="item_APIdocOne"></span>
+					    	</a>
+					    </li>
+					    <li role="presentation">
+					    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+					    		<i style="margin-right: 8px" class="fa fa-microphone"></i>
+					    		<span class="item_APIdocTwo"></span>
+					    	</a>
+					    </li>
+					    <li role="presentation">
+					    	<a href="#validate" aria-controls="validate" role="tab" data-toggle="tab">
+					    		<i style="margin-right: 8px" class="fa fa-bug"></i>
+					    		<span class="item_APIdocThree"></span>
+					    	</a>
+					    </li>
+					    <li role="presentation">
+					    	<a href="#sendRecord" aria-controls="sendRecord" role="tab" data-toggle="tab">
+					    		<i style="margin-right: 8px" class="fa fa-file"></i>
+					    		<span class="item_APIdocFour"></span>
+					    	</a>
+					    </li>
+					    <li role="presentation">
+					    	<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+					    	<i style="margin-right: 8px" class="fa fa-money"></i>
+					    	<span class="item_APIdocFive"></span>
+					    	</a>
+					    </li>
+					    <li role="presentation">
+					    	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+					    		<i style="margin-right: 8px" class="fa fa-inbox"></i>
+								<span class="item_APIdocSix"></span>
+					    	</a>
+					    </li>
+				    	<li role="presentation">
+				    		<a href="#codeExam" aria-controls="codeExam" role="tab" data-toggle="tab">
+				    			<i style="margin-right: 8px" class="fa fa-bookmark"></i>
+				    			<span class="item_APIdocSeven"></span>
+				    		</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<div class="tab-content">
+					    <div role="tabpanel" class="tab-pane active" id="home">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocOne" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 id="item_APIdocOneTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span class="item_requireAdd"></span><span>：https://api.paasoo.cn/json</span></br>
+										<span class="item_requireExample"></span><span class="APIurl">：https://api.paasoo.cn/json?key=xxxx&amp;secret=xxxxx&amp;from=xxxxx&amp;to=81xxxxxxxx,81xxxxxxxx &amp;text=Hello+world</span></br>
+							    	</div>
+							    	<div>
+							    		<h3 class="item_APIdocRequire" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APItype" style="min-width: 6em;"></th>
+										    			<th class="APIrequire" style="min-width: 6em"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample" style="min-width: 6em;"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>key</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIkeyDescription"></td>
+										    			<td>Abcdefgh</td>
+										    		</tr>
+										    		<tr>
+										    			<td>secret</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIsecretDescription"></td>
+										    			<td>APIsecretExample</td>
+										    		</tr>
+										    		<tr>
+										    			<td>from</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="fromDescription"></td>
+										    			<td>PaaSoo123</td>
+										    		</tr>
+										    		<tr>
+										    			<td>to</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="toDescription"></td>
+										    			<td class="toExample"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>text</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="response"></td>
+										    			<td>This is test sms from PaaSoo</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocRespon" style="color: #22a59f"></h3>
+										<span class="item_responExample"></span></br>
+										<span class="item_APIdocSuccess "></span><span class="APIurl">：{"status":"0","messageid":"015bd4-d6dfa7-58w"}</span></br>
+										<span class="item_APIdocFail"></span><span class="APIurl">：{"status_code":"Missing params.","status":"2"}</span></br>
+							    		<div class="table-responsive" style="margin-top: 10px">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample" style="min-width: 8em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>messageid</td>
+										    			<td class="messageDescription"></td>
+										    			<td>015bd4-d6dfa7-58w</td>
+										    		</tr>
+										    		<tr>
+										    			<td>status</td>
+										    			<td id="statusDescription"></td>
+										    			<td>
+															<span class="statusZero"></span></br>
+															<span class="statusTwo"></span></br>
+															<span class="statusFour"></span></br>
+															<span class="statusFive"></span></br>
+															<span class="statusSix"></span></br>
+															<span class="statusSeven"></span></br>
+															<span class="statusNine"></span></td>
+										    		</tr>
+										    		<tr>
+										    			<td>status_code</td>
+										    			<td class="fileDescription"></td>
+										    			<td>Missing params</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="profile">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocTwo" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 class="item_APIdocTwoTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+										<h3 class="item_APIdocReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span class="item_requireAdd"></span><span>：https://api.paasoo.cn/voice</span></br>
+										<span class="item_requireExample"></span><span class="APIurl">：https://api.paasoo.cn/voice?key=API_KEY&amp;secret=API_SECRET&amp;from=PaaSoo&amp;to=8615884401340&amp;</br>text=Hello+world&amp;repeat=1</span></br>
+							    	</div>
+							    	<div>
+							    		<h3 class="item_APIdocRequire" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APItype" style="min-width: 6em;"></th>
+										    			<th class="APIrequire" style="min-width: 6em"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample" style="min-width: 6em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>key</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIkeyDescription"></td>
+										    			<td>Abcdefgh</td>
+										    		</tr>
+										    		<tr>
+										    			<td>secret</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIsecretDescription"></td>
+										    			<td>APIsecretExample</td>
+										    		</tr>
+										    		<tr>
+										    			<td>from</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="fromDescription"></td>
+										    			<td>PaaSoo123</td>
+										    		</tr>
+										    		<tr>
+										    			<td>to</td>
+										    			<td>stringstring</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="toDescription"></td>
+										    			<td class="toExample"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>text</td>
+										    			<td>stringstring</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="response"></td>
+										    			<td>
+										    				Your code 1，2，3，4，5
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>repeat</td>
+										    			<td>stringstring</td>
+										    			<td class="item_isRequire"></td>
+										    			<td id="voiceRepeat"></td>
+										    			<td>1</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocRespon" style="color: #22a59f"></h3>
+										<span class="item_responExample"></span></br>
+										<span class="item_APIdocSuccess"></span><span class="APIurl">：{"status":"0","messageid":"4b7368321"}</span></br>
+										<span class="item_APIdocFail"></span><span class="APIurl">：{"status_code":"Missing params.","status":"2"}</span></br>
+							    		<div class="table-responsive" style="margin-top: 10px">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>messageid</td>
+										    			<td id="messageidTwo"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>status</td>
+										    			<td><span id="statusCodeTitle"></span></br>
+															0 - <span class="statusZero"></span></br>
+															2 - <span class="statusTwo"></span></br>
+															4 - <span class="statusFour"></span></br>
+															5 - <span class="statusFive"></span></br>
+															6 - <span class="statusSix"></span></br>
+															7 - <span class="statusSeven"></span></br>
+															15 - <span class="statusSeven"></span></td>
+										    		</tr>
+										    		<tr>
+										    			<td>status_code</td>
+										    			<td class="fileDescription"></td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 id="item_voiceParams" style="color: #22a59f"></h3>
+										<span id="item_voiceParamsOne"></span></br>
+										<span id="item_voiceParamsTwo"></span></br>
+										<span id="item_voiceParamsThree"></span></br>
+										<span id="item_voiceParamsFour"></span></br>
+							   
+							    		<div class="table-responsive" style="margin-top: 10px">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIattribute" style="min-width: 6em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>break</td>
+										    			<td>time</td>
+										    			<td id="voiceBreakSetting"></td>
+										    			<td><span id="voiceBreakTime"></span>：break time="1s"</td>
+										    		</tr>
+										    		<tr>
+										    			<td>prosody</td>
+										    			<td>rate</td>
+										    			<td id="voiceProsodyRate"></td>
+										    			<td id="voiceProsodySpeed"></td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+										<span id="item_voiceExample"></span>:</br>
+										1.<span id="item_voiceExampleOne"></span>:</br>
+										Hello,your login token is 1, 8, 3, 4, 0.</br>
+										2.<span id="item_voiceExampleTwo"></span>:</br>
+										<span class="APIurl">hello，your login token is &lt;break time="1s"/&gt;1&lt;break time="500ms"/&gt;8
+										&lt;break time="500ms"/&gt;3&lt;break time="500ms"/&gt;4&lt;break time="500ms"/&gt;0.</span></br>
+										3.<span id="item_voiceExampleThree"></span>:</br>
+										<span class="APIurl">Your login token is &lt;prosody rate="-10%25"&gt;1,8,3,4,0&lt;prosody/&gt;.</span>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="sendRecord">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocFour" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 id="item_APIdocFourTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span class="item_requireAdd"></span><span>：https://client.paasoo.cn/api/dlr</span></br>
+										<span class="item_requireExample"></span><span class="APIurl">：https://client.paasoo.cn/api/dlr?key=API_KEY&amp;secret=API_SECRET&amp;messageid=MESSAGE_ID</span></br>
+							    	</div>
+							    	<div>
+							    		<h3 class="item_APIdocRequire" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APItype" style="min-width: 6em;"></th>
+										    			<th class="APIrequire" style="min-width: 6em"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample" style="min-width: 6em;"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>keykey</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIkeyDescription"></td>
+										    			<td>Abcdefgh</td>
+										    		</tr>
+										    		<tr>
+										    			<td>secret</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIsecretDescription"></td>
+										    			<td>APIsecretExample</td>
+										    		</tr>
+										    		<tr>
+										    			<td>messageid</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="messageidThree"></td>
+										    			<td>015bd4-d6dfa7-58w</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocRespon" style="color: #22a59f"></h3>
+										<span id="item_APIdocExample"></span></br>
+										[{</br>
+											"type":"dlr",</br>
+											"messageid":"015bd4-d6dfa7-58w",</br>
+											"to":"8613527568886",</br>
+											"status":0,</br>
+											"drStatus":0,</br>
+											"drStatuscode":"delivered",</br>
+											"drErrcode":"0",</br>
+											"price":0.03</br>
+											"counts":1</br>
+										}]</br>
+							   
+							    		<div class="table-responsive" style="margin-top: 10px">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>type</td>
+										    			<td id="typeDlr"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>messageid</td>
+										    			<td class="messageidThree"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>to</td>
+										    			<td class="aimNumber"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>status</td>
+										    			<td>	
+														<span id="sentStatusCode"></span></br>
+														0 - Success：<span class="statusZero"></span></br>
+														2 - Missing params：<span class="statusTwo"></span></br>
+														4 - Invalid credentials：<span class="statusFour"></span></br>
+														5 - Unauthorized IP：<span class="statusFive"></span></br>
+														6 - Invalid phone number：<span class="statusSix"></span></br>
+														7 - Invalid sender id：<span class="statusSeven"></span></br>
+														9 - Quota exceeded：<span class="statusNine"></span>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>drStatus</td>
+										    			<td>	
+														<span class="statusReport"></span></br>
+														0 - <span class="normalStatus"></span></br>
+														400 - <span class="unnormalStatus"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>drStatuscode</td>
+										    			<td>	
+														<span class="statusReportCode"></span></br>
+
+														delivered - <span class="messageArrive"></span></br>
+														accepted - <span class="applyReceive"></span></br>
+														failed - <span class="sendFail"></span></br>
+														rejected - <span class="applyRefuse"></span></br>
+														unknown - <span class="unknowError"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>drErrcode</td>
+										    			<td>	
+														<span class="errorStatusCode"></span></br>
+
+														1 - <span class="errorCodeOne"></span></br>
+														2 - <span class="errorCodeTwo"></span></br>
+														3 - <span class="errorCodeThree"></span></br>
+														4 - <span class="errorCodeFour"></span></br>
+														5 - <span class="errorCodeFive"></span></br>
+														99 - <span class="errorCodeOther"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>price</td>
+										    			<td id="singleCost"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>counts</td>
+										    			<td id="countCost"></td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="messages">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocSix" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 id="item_APIdocSixTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+							    		<h3 id="item_statusReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span id="item_statusReturnAdd"></span></br>
+
+										<span id="item_statusReturnExample"></span><span class="APIurl">：http://USER_CALLBACK_URL?type=dlr&amp;messageid=MESSAGE_ID&amp;to=6588888888&amp;status=0&amp;statuscode=delivered&amp;errcode=1&amp;network=52099</span>
+							    	</div>
+							    	<div>
+							    		<h3 id="item_APIdocParam" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>type</td>
+										    			<td id="returnType"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>messageid</td>
+										    			<td id="messageidFour"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>to</td>
+										    			<td class="aimNumber"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>status</td>
+										    			<td>	
+															<span class="statusReport"></span></br>
+
+															0 - <span class="normalStatus"></span></br>
+															400 - <span class="unnormalStatus"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>statuscode</td>
+										    			<td>	
+															<span class="statusReportCode"></span></br>
+
+															delivered - <span class="messageArrive"></span></br>
+															accepted - <span class="applyReceive"></span></br>
+															failed - <span class="sendFail"></span></br>
+															rejected - <span class="applyRefuse"></span></br>
+															unknown - <span class="unknowError"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>errcode</td>
+										    			<td><span class="errorStatusCode"></span></br>
+
+															1 - <span class="errorCodeOne"></span></br>
+															2 - <span class="errorCodeTwo"></span></br>
+															3 - <span class="errorCodeThree"></span></br>
+															4 - <span class="errorCodeFour"></span></br>
+															5 - <span class="errorCodeFive"></span></br>
+															99 - <span class="errorCodeOther"></span></br>
+														</td>
+										    		</tr>
+										    		<tr>
+										    			<td>network</td>
+										    			<td id="networkTitle"></td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="settings">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocFive" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 id="item_APIdocFiveTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+										<h3 class="item_APIdocReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span class="item_requireAdd"></span><span>：https://client.paasoo.cn/api/balance</span></br>
+										<span class="item_requireExample"></span><span class="APIurl">：https://client.paasoo.cn/api/balance?key=API_KEY&amp;secret=API_SECRET</span></br>
+							    	</div>
+							    	<div>
+							    		<h3 class="item_APIdocRequire" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APItype" style="min-width: 6em;"></th>
+										    			<th class="APIrequire" style="min-width: 6em"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<td class="APIexample" style="min-width: 6em"></td>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>key</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIkeyDescription"></td>
+										    			<td>Abcdefgh</td>
+										    		</tr>
+										    		<tr>
+										    			<td>secret</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIsecretDescription"></td>
+										    			<td>APIsecretExample</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocRespon" style="color: #22a59f"></h3>
+										<span class="item_responExample"></span></br></br>
+										{"balance":"9.77","currency":"EUR"}</br>
+							   
+							    		<div class="table-responsive" style="margin-top: 10px">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>balance</td>
+										    			<td id="accountBalance"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>currency</td>
+										    			<td id="currencyUnit"></td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="validate">
+					    	<div class="panel panel-default">
+							  	<div class="panel-heading">
+							    	<h2 class="item_APIdocThree" style="color: #22a59f;margin-top: 20px;margin-bottom: 10px"></h2>
+							    	<h5 id="item_APIdocThreeTitle" style="font-size: 1em;color: #a5a5a5;margin: 0"></h5>
+							  	</div>
+							  	<div class="panel-body">
+							    	<div style="margin-bottom: 20px">
+										<h3 class="item_APIdocReturn" style="color: #22a59f"></h3>
+										<span class="item_requireType"></span></br>
+										<span class="item_requireAdd"></span><span>：https://client.paasoo.cn/api/validnumber</span></br>
+										<span class="item_requireExample"></span><span class="APIurl">：https://client.paasoo.cn/api/validnumber?key=API_KEY&amp;secret=API_SECRET&amp;countryCode=86&amp;nationalNumber=15900000000</span></br>
+							    	</div>
+							    	<div>
+							    		<h3 class="item_APIdocRequire" style="color: #22a59f"></h3>
+							    		<div class="table-responsive">
+										  	<table class="table table-bordered">
+										    	<thead>
+										    		<tr>
+										    			<th class="APIparams" style="min-width: 7em;"></th>
+										    			<th class="APItype" style="min-width: 6em;"></th>
+										    			<th class="APIrequire" style="min-width: 6em"></th>
+										    			<th class="APIdescription" style="min-width: 6em"></th>
+										    			<th class="APIexample" style="min-width: 6em;"></th>
+										    		</tr>
+										    	</thead>
+										    	<tbody>
+										    		<tr>
+										    			<td>key</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIkeyDescription"></td>
+										    			<td>Abcdefgh</td>
+										    		</tr>
+										    		<tr>
+										    			<td>secret</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td class="APIsecretDescription"></td>
+										    			<td>APIsecretExample</td>
+										    		</tr>
+										    		<tr>
+										    			<td>countryCode</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td id="codeDescription"></td>
+										    			<td id="codeExample"></td>
+										    		</tr>
+										    		<tr>
+										    			<td>nationalNumber</td>
+										    			<td>string</td>
+										    			<td class="item_isRequire"></td>
+										    			<td id="numberDescript"></td>
+										    			<td><span id="numberExample"></span>：15900000000</td>
+										    		</tr>
+										    	</tbody>
+										  	</table>
+										</div>
+							    	</div>
+							    	<div style="margin-bottom: 20px">
+							    		<h3 class="item_APIdocRespon" style="color: #22a59f"></h3>
+										<span id="item_formatterRight"></span>：true</br>
+										<span id="item_formatterMistake"></span>：false</br>
+							    	</div>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div role="tabpanel" class="tab-pane" id="codeExam">
+							<div>
+								<ul class="nav nav-tabs" style="border: none;" role="tablist">
+								    <li role="presentation" class="active">
+								    	<a href="#javaCode" aria-controls="javaCode" role="tab" data-toggle="tab">Java</a>
+								    </li>
+								    <li role="presentation">
+								    	<a href="#phpCode" aria-controls="phpCode" role="tab" data-toggle="tab">PHP</a>
+								    </li>
+								    <li role="presentation">
+								    	<a href="#nodeCode" aria-controls="nodeCode" role="tab" data-toggle="tab">NodeJs</a>
+								    </li>
+								    <li role="presentation">
+								    	<a href="#CCode" aria-controls="CCode" role="tab" data-toggle="tab">C#</a>
+								    </li>
+								    <li role="presentation">
+								    	<a href="#pythonCode" aria-controls="pythonCode" role="tab" data-toggle="tab">Python</a>
+								    </li>
+								</ul>
+
+							 	<div class="tab-content">
+								    <div role="tabpanel" class="tab-pane active" id="javaCode">
+									    <div class="panel panel-default" role="tabpanel">
+											<div class="panel-body">
+<pre style="border: none;background-color: #fff;">
+import org.apache.http.HttpEntity;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <span id="item_javaOne"></span>
+ * <span id="item_javaTwo"></span>
+ */
+public class JavaSmsApi {
+    //<span id="item_javaThree"></span>
+    private static String ENCODING = "UTF-8";
+    //<span id="item_javaFour"></span>
+    private static String URI_GET_SEND_SMS = "http://api.paasoo.cn/json";
+    //<span id="item_javaFive"></span>
+    private static String URI_GET_SEND_RECORD = "http://client.paasoo.cn/api/dlr";
+    //<span id="item_javaSix"></span>
+    private static String URI_GET_USER_BALANCE = "http://client.paasoo.cn/api/balance";
+    //<span id="item_javaSeven"></span>
+    private static String URI_GET_VALID_NUMBER = "http://client.paasoo.cn/api/validnumber";
+
+    public static void main(String[] args) throws Exception {
+        // <span id="item_javaEight"></span>
+        String key = "********";
+        String secret = "********";
+        String from = "********";
+        String to = "********";
+        String text = "********";;
+        String messageid = "********";
+	 	String countryCode = "********";
+        String nationalNumber = "********";
+
+        /**************** <span id="item_javaNine"></span> *****************/
+        System.out.println(JavaSmsApi.getSendSms(key, secret, from, to, text));
+
+        /**************** <span id="item_javaTen"></span> *****************/
+        System.out.println(JavaSmsApi.getSendRecord(key, secret, messageid));
+
+        /**************** <span id="item_javaEleven"></span> *****************/
+        System.out.println(JavaSmsApi.getUserBalance(key, secret));
+
+        /**************** <span id="item_javaTwelve"></span> *****************/
+        System.out.println(JavaSmsApi.getValidNumber(key, secret, countryCode, nationalNumber));
+    }
+
+    /**
+     *<span id="item_javaThirteen"></span>
+     *
+     * @param key    <span class="item_javaApi"></span>
+     * @param secret <span class="item_javaSecret"></span>
+     * @param from SenderID
+     * @param to     <span id="item_javaFifteen"></span>
+     * @param text   <span id="item_javaSixteen"></span>
+     * @return json <span id="item_javaSeventeen"></span>
+     * @throws Exception
+     */
+
+    public static String getSendSms(String key, String secret, String from, String to, String text) throws Exception {
+        Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+        params.put("key", key);
+        params.put("secret", secret);
+        params.put("from", from);
+        params.put("to", to);
+        params.put("text", text);
+        return get(URI_GET_SEND_SMS, params);
+    }
+
+    /**
+     * <span id="item_javaEighteen"></span>
+     *
+     * @param key       <span class="item_javaApi"></span>
+     * @param secret    <span class="item_javaSecret"></span>
+     * @param messageid <span id="item_javaNineteen"></span>
+     * @return
+     * @throws Exception
+     */
+    public static String getSendRecord(String key, String secret, String messageid) throws Exception {
+        Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+        params.put("key", key);
+        params.put("secret", secret);
+        params.put("messageid", messageid);
+        return get(URI_GET_SEND_RECORD, params);
+    }
+
+    /**
+     * <span id="item_javaTwenty"></span>
+     *
+     * @param key    <span class="item_javaApi"></span>
+     * @param secret <span class="item_javaSecret"></span>
+     * @return
+     * @throws Exception
+     */
+    public static String getUserBalance(String key, String secret) throws Exception {
+        Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+        params.put("key", key);
+        params.put("secret", secret);
+        return get(URI_GET_USER_BALANCE, params);
+    }
+
+    /**
+     * @param key            <span class="item_javaApi"></span>
+     * @param secret         <span class="item_javaSecret"></span>
+     * @param countryCode    <span id="item_javaFourteen"></span>
+     * @param nationalNumber <span id="item_javaTwentyFive"></span>
+     * @return
+     * @throws Exception
+     */
+    public static String getValidNumber(String key, String secret, String countryCode, String nationalNumber) throws Exception {
+        Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+        params.put("key", key);
+        params.put("secret", secret);
+        params.put("countryCode", countryCode);
+        params.put("nationalNumber", nationalNumber);
+        return get(URI_GET_VALID_NUMBER, params);
+    }
+
+
+    /**
+     * <span id="item_javaTwentyOne"></span>
+     *
+     * @param url       <span id="item_javaTwentyTwo"></span>
+     * @param paramsMap <span id="item_javaTwentyThree"></span>
+     * @return <span id="item_javaTwentyFour"></span>
+     */
+    public static String get(String url, Map&lt;String, String&gt; paramsMap) throws Exception {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        CloseableHttpResponse response = null;
+        InputStream is = null;
+        try {
+            List&lt;NameValuePair&gt; params = new ArrayList&lt;NameValuePair&gt;();
+            for (Map.Entry&lt;String, String&gt; param : paramsMap.entrySet()) {
+                NameValuePair pair = new BasicNameValuePair(param.getKey(), param.getValue());
+                params.add(pair);
+            }
+            String str = EntityUtils.toString(new UrlEncodedFormEntity(params, ENCODING));
+            HttpGet httpGet = new HttpGet(url + "?" + str);
+            response = httpClient.execute(httpGet);
+            HttpEntity entity = response.getEntity();
+            String result = EntityUtils.toString(entity);
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (is != null) {
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (response != null) {
+                try {
+                    response.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (httpClient != null) {
+                try {
+                    httpClient.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return null;
+    }
+}</pre>
+											</div>
+										</div>
+									</div>
+
+								    <div role="tabpanel" class="tab-pane" id="phpCode">
+								    	<div class="panel panel-default">
+										  	<div class="panel-body">
+												<pre style="border: none;background-color: #fff;">
+&lt;?php
+	header("Content-Type:text/html;charset=utf-8");
+
+	$key = "xxxxxxxxxxx"; 
+	$secret = "xxxxxxxxxxx"; 
+	$from = "xxxxxxxxxxx"; 
+	$to = "xxxxxxxxxxx"; 
+	$text = "xxxxxxxxxxx";
+	$messageid = "xxxxxxxxxxx"; 
+	$nationalNumber = "xxxxxxxxxxx";
+	$countryCode = "xxxxxxxxxxx";
+	
+	$curl = curl_init();
+
+	/* <span id="item_phpOne"></span> */
+	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Accept:text/plain;charset=utf-8', 'Content-Type:application/x-www-form-urlencoded','charset=utf-8'));
+
+	/* <span id="item_phpTwo"></span> */
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+	/* <span id="item_phpThree"></span>*/
+	curl_setopt($curl, CURLOPT_TIMEOUT, 10);
+
+	/* <span id="item_phpFour"></span> */
+	curl_setopt($curl, CURLOPT_GET, 1);
+	curl_setopt($curl, CURLOPT_GETFIELDS);
+	curl_setopt($curl, CURLOPT_HEADER, 0); 
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+
+	// <span id="item_phpFive"></span>
+	$data = array('key'=>$key,'secret'=>$secret,'from'=>$from,'to'=>$to,'text'=>$text);
+	$json_data = get_send_sms($curl,$data);
+	$array = json_decode($json_data,true);
+	echo '&lt;pre&gt;';print_r($array);
+
+	// <span id="item_phpSix"></span> 
+	$data = array('key'=&gt;$key,'secret'=&gt;$secret,'messageid'=&gt;$messageid);
+	$json_data = get_send_record($curl,$data);
+	$array = json_decode($json_data,true);
+	echo '&lt;pre&gt;';print_r($array);
+
+	// <span class="item_phpSeven"></span>
+	$data = array('key'=&gt;$key,'secret'=&gt;$secret);
+	$json_data = get_user_balance($curl,$data);
+	$array = json_decode($json_data,true);
+	echo '&lt;pre&gt;';print_r($array);
+
+	// <span class="item_phpSeven"></span>
+	$data = array('key'=&gt;$key,'secret'=&gt;$secret,'countryCode'=&gt;$countryCode,'nationalNumber'=&gt;$nationalNumber);
+	$json_data = get_user_balance($curl,$data);
+	$array = json_decode($json_data,true);
+	echo '&lt;pre&gt;';print_r($array);
+
+	curl_close($curl);
+	/***************************************************************************************/
+
+	// <span id="item_phpNine"></span>
+	function get_send_sms($curl,$data){
+    		curl_setopt($curl, CURLOPT_URL, 'http://api.paasoo.cn/json?’);
+    		curl_setopt($curl, CURLOPT_GETFIELDS, http_build_query($data));
+    		return curl_exec($ch);
+	}
+
+	// <span id="item_phpTen"></span>
+	function get_send_record($curl,$data){
+    		curl_setopt($curl, CURLOPT_URL, 'http://client.paasoo.cn/api/dlr?’);
+    		curl_setopt($curl, CURLOPT_GETFIELDS, http_build_query($data));
+    		return curl_exec($ch);
+	}
+
+	// <span id="item_phpEleven"></span>
+	function get_user_balance($curl,$data){
+    		curl_setopt($curl, CURLOPT_URL, 'http://client.paasoo.cn/api/balance?’);
+    		curl_setopt($curl, CURLOPT_GETFIELDS, http_build_query($data));
+    		return curl_exec($ch);
+	}
+
+	// <span id="item_phpTwelve"></span>
+	function get_user_balance($curl,$data){
+    		curl_setopt($curl, CURLOPT_URL, 'http://client.paasoo.cn/api/validnumber?’);
+    		curl_setopt($curl, CURLOPT_GETFIELDS, http_build_query($data));
+    		return curl_exec($ch);
+	}
+?&gt;</pre>
+										  	</div>
+										</div>
+								    </div>
+							
+								    <div role="tabpanel" class="tab-pane" id="nodeCode">
+								    	<div class="panel panel-default">
+										  	<div class="panel-body">
+<pre style="border: none;background-color: #fff;">
+var http = require('http');
+var qs = require('querystring');
+
+// <span id="item_nodeOne"></span>
+var key = "xxxxxxxxxxx"; 
+var secret = "xxxxxxxxxxx"; 
+var from = "xxxxxxxxxxx"; 
+var to = "xxxxxxxxxxx"; 
+var text = "xxxxxxxxxxx";
+var messageid = "xxxxxxxxxxx"; 
+var countryCode = "xxxxxxxxxxx";
+var nationalNumber = "xxxxxxxxxxx";
+
+var api_host = "api.paasoo.cn";
+var client_host = "client.paasoo.cn";
+
+// <span id="item_nodeTwo"></span>
+var uri_get_send_sms = "/json";
+// <span id="item_nodeThree"></span>
+var uri_get_send_sms_record = "/api/dlr";
+// <span id="item_nodeFour"></span>
+var uri_get_user_balance = "/api/balance";
+// <span id="item_nodeFive"></span>
+var uri_get_valid_number = "/api/validnumber";
+
+// ****************************** <span id="item_nodeSix"></span> ******************************************
+
+// <span id="item_nodeSeven"></span>
+get_send_sms(uri_get_send_sms, key, secret, from, to, text);
+// <span id="item_nodeEight"></span>
+get_send_sms_record(uri_get_send_sms_record, key, secret, messageid);
+// <span id="item_nodeNine"></span>
+get_user_balance(uri_get_user_balance, key, secret);
+// <span id="item_nodeTen"></span>
+get_valid_number(uri_get_valid_number, key, secret, countryCode, nationalNumber);
+
+// ****************************** <span id="item_nodeEleven"></span> *********************************************
+
+function get_send_sms(uri, key, secret, from, to, text) {
+    var get_data = {  
+    	'key': key,  
+	'secret': secret,
+	'from': from,
+	'to': to,
+	'text': text,
+    };
+    var content = qs.stringify(get_data);  
+    get(uri,content,api_host);
+}
+
+function get_send_sms_record(uri, key, secret, messageid){
+    var get_data = {  
+    	'key': key,  
+	'secret': secret,
+	'messageid': messageid,
+    };  
+    var content = qs.stringify(get_data);  
+    get(uri,content,client_host);
+}
+
+function get_user_balance(uri, key, secret){
+    var get_data = {  
+    	'key': key,  
+	'secret': secret,
+    };  
+    var content = qs.stringify(get_data);  
+    get(uri,content,client_host);
+}
+
+function get_valid_number(uri, key, secret, countryCode, nationalNumber){
+    var get_data = {  
+    	'key': key,  
+	'secret': secret,
+	'countryCode': countryCode,
+	'nationalNumber': nationalNumber,
+    };  
+    var content = qs.stringify(get_data);  
+    get(uri,content,client_host);
+}
+
+function get(uri,content,host){
+    var options = {  
+        host: host,
+        port: 80,  
+        path: uri,  
+        method: 'GET',  
+        headers: {  
+            'Content-Type': 'application/json'  
+        }  
+    };
+    var req = http.request(options, function(res) {   
+               res.setEncoding('utf8'); 
+		var resData = "";
+               res.on("data",function(data){
+                 resData += data;
+               });
+               res.on("end", function() {
+                 callback(null,JSON.parse(resData));
+               });  
+    });   
+}</pre>
+										  	</div>
+										</div>
+								    </div>
+
+								    <div role="tabpanel" class="tab-pane" id="CCode">
+								    	<div class="panel panel-default">
+										  	<div class="panel-body">
+<pre style="border: none;background-color: #fff;">
+//<span id="item_cOne"></span> 
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+using System.Web;
+
+namespace paasooSmsClient {
+    class Program {
+        static void Main(string[] args) {
+            string key = "********";
+            string secret = "********";
+            string from = "********";
+            string to = "********";
+            string text = "********";;
+            string messageid = "********";
+	     string countryCode = "********";
+            string nationalNumber = "********";
+
+	    //<span id="item_cTwo"></span> 
+      	     string uri_get_send_sms = "http://api.paasoo.cn/json";
+    	    //<span id="item_cThree"></span> 
+            string uri_get_send_record = "http://client.paasoo.cn/api/dlr";
+            //<span id="item_cFour"></span> 
+            string uri_get_user_balance = "http://client.paasoo.cn/api/balance";
+    	    //<span id="item_cFive"></span> 
+            string uri_get_valid_number = "http://client.paasoo.cn/api/validnumber";
+
+            // <span id="item_cSix"></span> 
+            string get_send_sms = "?key=" + key + "&amp;secret=" + secret + "&amp;from=" + from + "&amp;to=" + to + "&amp;text =" + text;
+            string get_send_sms_record = "?key=" + key + "&amp;secret=" + secret + "&amp;messageid=" + messageid;
+            string get_user_balance = "?key=" + key + "&amp;secret=" + secret;
+            string get_valid_number = "?key=" + key + "&amp;secret=" + secret + "&amp;countryCode =" + countryCode + "&amp;nationalNumber =" + nationalNumber;
+
+            // <span id="item_cSeven"></span> 
+            HttpGet(uri_get_send_sms, get_send_sms);
+            HttpGet(uri_get_send_record, get_send_sms_record);
+            HttpGet(uri_get_user_balance, get_user_balance);
+            HttpGet(uri_get_valid_number, get_valid_number);
+        }
+
+        public static void HttpGet(string url, string postDataStr) {
+            byte[] dataArray = Encoding.UTF8.GetBytes(postDataStr);
+            // Console.Write(Encoding.UTF8.GetString(dataArray));
+            
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "GET";
+            request.ContentType = "application/json";
+            request.ContentLength = dataArray.Length;
+            //request.CookieContainer = cookie;
+            Stream dataStream = request.GetRequestStream();
+            dataStream.Write(dataArray, 0, dataArray.Length);
+            dataStream.Close();
+            try {
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
+                String res = reader.ReadToEnd();
+	         response.Close();
+                reader.Close();
+		 Console.Write("\nResponse Content:\n" + res + "\n");
+            } catch(Exception e) {
+                Console.Write(e.Message + e.ToString());
+            }
+        }
+    }
+}</pre>
+										  	</div>
+										</div>
+								    </div>
+
+								    <div role="tabpanel" class="tab-pane" id="pythonCode">
+								    	<div class="panel panel-default">
+										  	<div class="panel-body">
+<pre style="border: none;background-color: #fff;">
+import httplib
+import urllib
+import json
+
+#<span id="item_pythonOne"></span>
+api_host = "api.paasoo.cn";
+client_host = "client.paasoo.cn";
+port = 80
+
+// <span id="item_pythonTwo"></span>
+uri_get_send_sms = "/json";
+// <span id="item_pythonThree"></span>
+uri_get_send_sms_record = "/api/dlr";
+// <span id="item_pythonFour"></span>
+uri_get_user_balance = "/api/balance";
+// <span id="item_pythonFive"></span>
+uri_get_valid_number = "/api/validnumber";
+
+#<span id="item_pythonSix"></span>
+def get_send_sms(key, secret, from, to, text):
+    params = urllib.urlencode({'key': key, 'secret': secret, 'from': from, 'to': to, 'text': text})
+    headers = {"Content-type": "application/json", "Accept": "text/plain"}
+    conn = httplib.HTTPConnection(api_host, port=port, timeout=30)
+    conn.request("GET", uri_get_send_sms, params, headers)
+    response = conn.getresponse()
+    response_str = response.read()
+    conn.close()
+    return response_str
+
+def get_send_sms_record(key, secret, messageid):
+    params = urllib.urlencode({'key': key, 'secret': secret, 'messageid': messageid})
+    headers = {"Content-type": "application/json", "Accept": "text/plain"}
+    conn = httplib.HTTPConnection(client_host, port=port, timeout=30)
+    conn.request("GET", uri_get_send_sms_record, params, headers)
+    response = conn.getresponse()
+    response_str = response.read()
+    conn.close()
+    return response_str
+
+def get_send_sms_record(key, secret):
+    params = urllib.urlencode({'key': key, 'secret': secret})
+    headers = {"Content-type": "application/json", "Accept": "text/plain"}
+    conn = httplib.HTTPConnection(client_host, port=port, timeout=30)
+    conn.request("GET", uri_get_user_balance, params, headers)
+    response = conn.getresponse()
+    response_str = response.read()
+    conn.close()
+    return response_str
+
+def get_send_sms_record(key, secret, countryCode, nationalNumber):
+    params = urllib.urlencode({'key': key, 'secret': secret, 'countryCode': countryCode, 'nationalNumber': nationalNumber})
+    headers = {"Content-type": "application/json", "Accept": "text/plain"}
+    conn = httplib.HTTPConnection(client_host, port=port, timeout=30)
+    conn.request("GET", uri_get_valid_number, params, headers)
+    response = conn.getresponse()
+    response_str = response.read()
+    conn.close()
+    return response_str
+
+
+if __name__ == '__main__':
+    
+    key = "xxxxxxxxxxx"; 
+    secret = "xxxxxxxxxxx"; 
+    from = "xxxxxxxxxxx"; 
+    to = "xxxxxxxxxxx"; 
+    text = "xxxxxxxxxxx";
+    messageid = "xxxxxxxxxxx"; 
+    countryCode = "xxxxxxxxxxx";
+    nationalNumber = "xxxxxxxxxxx";
+
+    #<span id="item_pythonSeven"></span>
+    print get_send_sms(key, secret, from, to, text)
+    #<span id="item_pythonEight"></span>
+    print get_send_sms_record(key, secret, messageid)
+    #<span id="item_pythonNine"></span>
+    print get_send_sms_record(key, secret)
+    #<span id="item_pythonTen"></span>
+    print get_send_sms_record(key, secret, countryCode, nationalNumber)</pre>
+										  	</div>
+										</div>
+								    </div>
+							  	</div>
+							</div>
+					    </div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<footer id="gtco-footer" role="contentinfo" style="padding: 3em 0 0 0">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="gtco-widget">
+							<h3><img src="images/footer-logo2.png"></h3>
+							<p class="item_catchlineFive" style="font-weight:bold;margin-top: 2em;color: #2d9093;font-family:'zhongyuan'"></p>
+							<ul class="gtco-quick-contact">
+								<li style="margin-top: 2em;color: #2d9093;">PaaSoo Technology Limited</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2" id="footerModelTwo">
+						<div class="gtco-widget">
+							<h3 class="item_product" style="margin-bottom: 2em;"></h3>
+							<ul class="gtco-quick-contact">
+								<li><a id="item_footerProductOne" class="text" href="product.html#sectionOne"></a></li>
+								<li><a id="item_footerProductTwo" class="text" href="product.html#sectionFive"></a></li>
+								<li><a id="item_footerProductThree" class="text" href="product.html#sectionTwo"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gtco-widget">
+							<h3 id="item_footerService" style="margin-bottom: 2em;"></h3>
+							<ul class="gtco-quick-contact">
+								<li><a id="item_footerServiceOne" class="text" href="api.html"></a></li>
+								<li><a id="item_footerServiceTwo" class="text" href="agreement.html"></a></li>
+								<li><a id="item_footerServiceThree" class="text" href="question.html"></a></li>
+							</ul>
+						</div>
+					</div> 
+					<div class="col-md-3" id="footerModelThree">
+						<div class="gtco-widget">
+							<h3 id="item_footerAboutUs" style="margin-bottom: 2em;"></h3>
+							<ul class="gtco-quick-contact">
+								<li><p id="item_footerAboutUsOne" class="text"></p></li>
+								<li><p id="item_footerAboutUsTwo" class="text"></p></li>
+								<li><p id="item_footerAboutUsThree" class="text"></p></li>
+								<li><p id="item_footerAboutUsFour" class="text"></p></li>
+								<li><a id="item_footerAboutUsFive" style="color: #22a59f" class="text" href="contact.html"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2" id="QRCode">
+						<div class="gtco-widget">
+							<h3 id="item_footerFollowUs" style="margin-bottom: 2em;"></h3>
+							<ul class="gtco-quick-contact">
+								<li><img style="width: 80px" src="images/QRCode.jpg" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row copyright">
+					<div class="col-md-12">
+						<p class="pull-center">
+							<small class="block">&copy; Copyright&nbsp;by&nbsp;2017&nbsp;<a href="https://www.paasoo.com/">paasoo.com</a>&nbsp;<span id="item_copyright"></span></small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="ti-arrow-circle-up"></i></a>
+	</div>
+	<div id="FreeUse" class="server-dom" style="bottom: 20px;"  onclick="_MEIQIA('showPanel')">
+    	<div class="server-icon">
+    		<i class="fa fa-comment" style="font-size: 2em;line-height: 40px;"></i>
+    		<div style="font-size: 14px;">免费试用</div>
+    	</div>
+    </div>
+<!--     <div class="server-dom" style="bottom: 110px;" onclick="
+    	window.location.href='http://wpa.qq.com/msgrd?v=3&uin=3038357404&site=qq&menu=yes'
+    ">
+    	<div class="server-icon">
+    		<i class="fa fa-qq" style="font-size: 2em;line-height: 40px;"></i>
+    		<div style="font-size: 14px;">QQ客服</div>
+    	</div>
+    </div> -->
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script src="js/i18n.js"></script>
+	<script src="js/APIdoc.js"></script>
+
+	</body>
+</html>
+
