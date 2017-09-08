@@ -196,7 +196,7 @@
 		$('.item_validate').html($.i18n.prop('string_validate'));  // 号码格式验证API
 		$('.item_sent').html($.i18n.prop('string_sent'));  // 自助发送
 		$('#item_numberQuery').html($.i18n.prop('string_numberQuery')); 
-		// $('#item_formatter').html($.i18n.prop('string_formatter'));
+		$('#item_formatter').html($.i18n.prop('string_formatter'));
 		$('#item_free').html($.i18n.prop('string_free')); 
 		$('#item_chinaRmb').html($.i18n.prop('string_chinaRmb'));
 		$('.item_chinaRmbMeasure').html($.i18n.prop('string_chinaRmbMeasure'));
