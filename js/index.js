@@ -6,7 +6,7 @@
 		// 获取系统语言
 		var systemLang = window.navigator.language.slice(0,2);
 
-		var value = sessionStorage.getItem("lang") ? sessionStorage.getItem("lang") : 'zh';
+		var value = sessionStorage.getItem("lang") ? sessionStorage.getItem("lang") : 'en';
 
 		PageOpts.language(value);
 
@@ -50,10 +50,10 @@
 		$('#item_catchlineOne').html($.i18n.prop('string_catchlineOne'));  
 		$('#item_catchlineTwo_one').html($.i18n.prop('string_catchlineTwo_one')); 
 		$('#item_catchlineTwo_two').html($.i18n.prop('string_catchlineTwo_two'));  
-		$('#item_catchlineThree').html($.i18n.prop('string_catchlineThree'));  
-		$('#item_catchlineFour').html($.i18n.prop('string_catchlineFour'));  
+		// $('#item_catchlineThree').html($.i18n.prop('string_catchlineThree'));  
+		// $('#item_catchlineFour').html($.i18n.prop('string_catchlineFour'));  
 		$('.item_catchlineFive').html($.i18n.prop('string_catchlineFive')); 
-		// $('#createAccount').html($.i18n.prop('string_createAccount'))
+		$('#createAccount').html($.i18n.prop('string_createAccount'))
 		// span
 		$('#item_spanOne').html($.i18n.prop('string_spanOne'));
 		$('#item_spanOneTitle').html($.i18n.prop('string_spanOneTitle'));  
@@ -115,66 +115,66 @@
 
 		// footer
 		$('#item_footerProductOne').html($.i18n.prop('string_footerProductOne'));
-		$('#item_footerProductTwo').html($.i18n.prop('string_footerProductTwo'));
+		// $('#item_footerProductTwo').html($.i18n.prop('string_footerProductTwo'));
 		$('#item_footerProductThree').html($.i18n.prop('string_footerProductThree'));  
 		$('#item_footerService').html($.i18n.prop('string_footerService'));
 		$('#item_footerServiceOne').html($.i18n.prop('string_footerServiceOne')); 
 		$('#item_footerServiceTwo').html($.i18n.prop('string_footerServiceTwo')); 
-		$('#item_footerServiceThree').html($.i18n.prop('string_footerServiceThree'));
+		// $('#item_footerServiceThree').html($.i18n.prop('string_footerServiceThree'));
 		$('#item_footerAboutUs').html($.i18n.prop('string_footerAboutUs'));
 		$('#item_footerAboutUsOne').html($.i18n.prop('string_footerAboutUsOne'));
 		$('#item_footerAboutUsTwo').html($.i18n.prop('string_footerAboutUsTwo'));
 		$('#item_footerAboutUsThree').html($.i18n.prop('string_footerAboutUsThree'));  
 		$('#item_footerAboutUsFour').html($.i18n.prop('string_footerAboutUsFour'));
-		$('#item_footerAboutUsFive').html($.i18n.prop('string_footerAboutUsFive')); 
+		// $('#item_footerAboutUsFive').html($.i18n.prop('string_footerAboutUsFive')); 
 		$('#item_footerFollowUs').html($.i18n.prop('string_footerFollowUs')); 
 		$('#item_copyright').html($.i18n.prop('string_copyright'));
 
-		if (lang==='zh') {
-			$("#question").hide();
-			$("#FreeUse").show();
-			$("#QRCode").show();       // 二维码
-			$("#gtco-subscribe").show();
-			$("#productFive").show();
-			$("#footerModelTwo").attr('class','col-md-2');
-			$("#footerModelThree").attr('class','col-md-3');
-			$("#productFour").attr('class','col-md-offset-2 col-md-4 col-sm-6');
-			$("#productOne").attr('class','col-md-4 col-sm-6');
-			$("#productTwo").attr('class','col-md-4 col-sm-6');
-			$("#productThree").attr('class','col-md-4 col-sm-6');
-			$("#register").hide();
-			$("#item_footerAboutUsOne").show();
+		// if (lang==='zh') {
+		// 	$("#question").hide();
+		// 	$("#FreeUse").show();
+		// 	$("#QRCode").show();       // 二维码
+		// 	$("#gtco-subscribe").show();
+		// 	$("#productFive").show();
+		// 	$("#footerModelTwo").attr('class','col-md-2');
+		// 	$("#footerModelThree").attr('class','col-md-3');
+		// 	$("#productFour").attr('class','col-md-offset-2 col-md-4 col-sm-6');
+		// 	$("#productOne").attr('class','col-md-4 col-sm-6');
+		// 	$("#productTwo").attr('class','col-md-4 col-sm-6');
+		// 	$("#productThree").attr('class','col-md-4 col-sm-6');
+		// 	$("#register").hide();
+		// 	$("#item_footerAboutUsOne").show();
 
-		}else if (lang==='ja') {
-			$("#question").hide();
-			$("#FreeUse").hide();
-			$("#QRCode").hide();       // 二维码
-			$("#gtco-subscribe").show();
-			$("#productFive").show();
-			$("#footerModelTwo").attr('class','col-md-3');
-			$("#footerModelThree").attr('class','col-md-4');
-			$("#productFour").attr('class','col-md-offset-2 col-md-4 col-sm-6');
-			$("#productOne").attr('class','col-md-4 col-sm-6');
-			$("#productTwo").attr('class','col-md-4 col-sm-6');
-			$("#productThree").attr('class','col-md-4 col-sm-6');
-			$("#register").hide();
-			$("#item_footerAboutUsOne").hide();
+		// }else if (lang==='ja') {
+		// 	$("#question").hide();
+		// 	$("#FreeUse").hide();
+		// 	$("#QRCode").hide();       // 二维码
+		// 	$("#gtco-subscribe").show();
+		// 	$("#productFive").show();
+		// 	$("#footerModelTwo").attr('class','col-md-3');
+		// 	$("#footerModelThree").attr('class','col-md-4');
+		// 	$("#productFour").attr('class','col-md-offset-2 col-md-4 col-sm-6');
+		// 	$("#productOne").attr('class','col-md-4 col-sm-6');
+		// 	$("#productTwo").attr('class','col-md-4 col-sm-6');
+		// 	$("#productThree").attr('class','col-md-4 col-sm-6');
+		// 	$("#register").hide();
+		// 	$("#item_footerAboutUsOne").hide();
 
-		}else if (lang==='en') {
-			$("#question").show();
-			$("#FreeUse").hide();
-			$("#QRCode").hide();         // 二维码
-			$("#gtco-subscribe").hide();
-			$("#productFive").hide();
-			$("#footerModelTwo").attr('class','col-md-3');
-			$("#footerModelThree").attr('class','col-md-4');
-			$("#productOne").attr('class','col-md-3 col-sm-6');
-			$("#productTwo").attr('class','col-md-3 col-sm-6');
-			$("#productThree").attr('class','col-md-3 col-sm-6');
-			$("#productFour").attr('class','col-md-3 col-sm-6');
-			$("#register").show();
-			$("#item_footerAboutUsOne").hide();
-		}
+		// }else if (lang==='en') {
+		// 	$("#question").show();
+		// 	$("#FreeUse").hide();
+		// 	$("#QRCode").hide();         // 二维码
+		// 	$("#gtco-subscribe").hide();
+		// 	$("#productFive").hide();
+		// 	$("#footerModelTwo").attr('class','col-md-3');
+		// 	$("#footerModelThree").attr('class','col-md-4');
+		// 	$("#productOne").attr('class','col-md-3 col-sm-6');
+		// 	$("#productTwo").attr('class','col-md-3 col-sm-6');
+		// 	$("#productThree").attr('class','col-md-3 col-sm-6');
+		// 	$("#productFour").attr('class','col-md-3 col-sm-6');
+		// 	$("#register").show();
+		// 	$("#item_footerAboutUsOne").hide();
+		// }
 
 		var title = {
                     'zh':'PaaSoo 无限云 - 全球云通讯平台::短信/语音/验证码/通知',
